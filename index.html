@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mostafa Goudarzi's Website</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
         .container { width: 80%; margin: auto; overflow: hidden; }
         header { border-bottom: 1px solid #333; padding: 20px 0; margin-bottom: 20px; }
         nav ul { padding: 0; list-style: none; }
         nav ul li { display: inline; margin-right: 10px; }
         nav ul li a { text-decoration: none; color: #333; }
-        .content { margin-bottom: 20px; }
-        .profile-pic { width: 150px; height: 150px; border-radius: 50%; }
+        .content { display: flex; align-items: center; justify-content: space-between; }
+        .text { width: 60%; }
+        .profile-pic { width: 300px; height: auto; border-radius: 50%; }
     </style>
 </head>
 <body>
@@ -27,9 +28,11 @@
             </nav>
         </header>
         <div class="content">
-            <h2>Welcome to My Personal Website</h2>
+            <div class="text">
+                <h2>Welcome to My Personal Website</h2>
+                <p>Hello! I am a Postdoctoral Researcher in Finance & Business Analytics Group, and Ramp-Up Manager in Viipuri Lab, LUT Business School, Finland.</p>
+            </div>
             <img src="myPhotoCV.jpg" alt="Mostafa Goudarzi" class="profile-pic">
-            <p>Hello! I am a Postdoctoral Researcher in Finance & Business Analytics Group, and Ramp-Up Manager in Viipuri Lab, LUT Business School, Finland.</p>
         </div>
     </div>
 </body>
