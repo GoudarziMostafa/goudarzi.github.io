@@ -4,35 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae - Mostafa Goudarzi</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .container { width: 80%; margin: auto; overflow: hidden; }
-        header { border-bottom: 1px solid #333; padding: 20px 0; margin-bottom: 20px; }
-        nav ul { padding: 0; list-style: none; }
-        nav ul li { display: inline; margin-right: 10px; }
-        nav ul li a { text-decoration: none; color: #333; }
-        .content { margin-bottom: 20px; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="clearfix">
             <h1>Mostafa Goudarzi</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                </ul>
-            </nav>
+            <img src="myPhotoCV.jpeg" alt="Mostafa Goudarzi" class="profile-pic">
+            <div class="header-details">
+                <p>Postdoctoral Researcher in Finance & Business Analytics Group, and Ramp-Up Manager in Viipuri Lab, LUT Business School, Finland</p>
+                <p>Laserkatu 3, 53850 Lappeenranta, Finland</p>
+                <p>Email: <a href="mailto:mostafa.goudarzi@lut.fi">mostafa.goudarzi@lut.fi</a> | Phone: +358 505 714090</p>
+            </div>
         </header>
-        <div class="content">
-            <h2>Curriculum Vitae</h2>
-            <p><strong>Current Position:</strong> Postdoctoral Researcher in Finance & Business Analytics Group, and Ramp-Up Manager in Viipuri Lab, LUT Business School, Finland</p>
-            <p><strong>Address:</strong> Laserkatu 3, 53850 Lappeenranta, Finland</p>
-            <p><strong>Phone:</strong> +39 324 5472374</p>
-            <p><strong>Email:</strong> <a href="mailto:mostafa.goudarzi@lut.fi">mostafa.goudarzi@lut.fi</a></p>
-            <!-- Add more sections as needed -->
-        </div>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PhD in Economics and Management</strong>, University of Trento, Trento, Italy, Dec 2022
+                    <ul>
+                        <li>Thesis: "Three Essays on Financial Economics: Machine learning and Experimental Approaches"</li>
+                        <li>Supervisors: Prof. Luigi Mittone, Prof. Flavio Bazzana</li>
+                    </ul>
+                </li>
+                <li><strong>MPhil in Economics and Finance</strong>, Bocconi University, Milan, Italy, Jan 2018</li>
+                <li><strong>MSC in Finance and Banking</strong>, University of Rome Tor Vergata, Rome, Italy, Mar 2016
+                    <ul>
+                        <li>Thesis: "Dynamic Spillover Effects in the UK and Italian Futures Markets"</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research Interests</h2>
+            <p>Behavioral Finance, Market Microstructure, Experimental Economics, Cryptoeconomics</p>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <ul>
+                <li><b>Goudarzi, M.</b>, & Bazzana, F. (2023). <a href="https://www.sciencedirect.com/science/article/pii/S0275531923002040">"Identification of high-frequency trading: A machine learning approach."</a> Research in International Business and Finance, 66.</li>
+                <li><b>Goudarzi, M.</b>, & Mittone, L. (2023). <a href="https://www.sciencedirect.com/science/article/pii/S2214804323001064">"Shrinking the shadow economy: Experimental insights into the role of financial development."</a> Journal of Behavioral and Experimental Economics, 107.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Working Papers</h2>
+            <ul>
+                <li><strong>Do We Share The Cake? Experimental Evidence Of Inequality Aversion In Real Options Games</strong>, Co-authored with: Luigi Mittone, Azzurra Morreale, Flavio Bazzana
+                    <ul>
+                        <li>Status: Under Review in Journal of Operations Management</li>
+                        <li>Summary: In this paper, we enhance the traditional Real Options Game (ROG) framework by integrating fairness concerns. We investigate decision-making in a leader-follower Stackelberg game, where leaders face the choice of imposing risky outcomes on followers or delegating decisions. Using laboratory experiments, we show that increased uncertainty prompts leaders to delegate decisions to achieve fairer outcomes, and second movers tend to choose equitable options. These findings strongly support our theoretical model's predictions and demonstrate the impact of other-regarding preferences in ROG.</li>
+                    </ul>
+                </li>
+                <li><strong>Choice Under the Radar: Experimental Insights into the Shadow Economy and Tax Evasion</strong>, Co-authored with: Luigi Mittone
+                    <ul>
+                        <li>Status: Under Review in Journal of Economic Behavior and Organization</li>
+                        <li>Summary: In this study, we simulate a credit market in a laboratory setting to investigate how the presence of a shadow economy influences tax behavior under a variety of treatments. Our innovative approach includes analyzing both the demand and supply sides, utilizing semantic prosody, and employing a framework free from direct references to taxes. We show that the presence of a shadow economy significantly impacts decision-making. While it attracts tax evaders, a notable number of participants chose to avoid the shadow economy but still evaded taxes within the formal economy. Conversely, those in the untaxed economy often paid fees similar to taxes to hedge against detection risks. In addition, the use of semantic prosody increased tax compliance across the board, highlighting its broad applicability.</li>
+                    </ul>
+                </li>
+                <li><strong>From Heuristics to Algorithms: A Neuro-Fuzzy Investigation of Herd Behavior</strong>
+                    <ul>
+                        <li>Status: Preliminary Research Phase</li>
+                        <li>Summary: In this research, I explore trader behavior in a sequential trading experiment with fuzzy private information. I aim to map trader heuristics into a rule-based expert system using ANFIS (Adaptive Neuro-fuzzy Inference System) and examine the impact of an algo-trader on herd behavior in the experimental asset market, employing a complex systems approach.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Teaching Experience</h2>
+            <ul>
+                <li><strong>LUT Business School, Finland (2023-Present)</strong>
+                    <ul>
+                        <li>Introduction to Programmatic Business Analytics: The basics of Python for bachelor's students</li>
+                        <li>Analytics for Business: Machine learning techniques using Matlab and Python for master's students</li>
+                    </ul>
+                    <strong>Master's Thesis Supervision</strong>
+                    <ul>
+                        <li>Predicting Churn Using Machine Learning Methods, by Eero Tenhunen, 2022</li>
+                        <li>Unraveling Finnish Housing Market Affordability: A Cluster Analysis Approach, by Juho Suutari, 2023</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Ramp-Up Manager, Viipuri Lab, LUT Business School, Lappeenranta, Finland (June 2023 - Present)</strong>
+                    <ul>
+                        <li>Leading the pre-launch phase of Viipuri Lab, developing interim payment solutions while ensuring future compliance with Finnish tax regulations</li>
+                    </ul>
+                </li>
+                <li><strong>Research Assistant, Innocenzo Gasparini Institute for Economic Research, Milan, Italy (Jan 2018 - Aug 2018)</strong>
+                    <ul>
+                        <li>Developed advanced Stata scripts for analyzing data, contributing to <a href="https://academic.oup.com/jeea/article/20/1/187/6291194">research</a> led by Pamela Giustinelli published in the Journal of the European Economic Association</li>
+                    </ul>
+                </li>
+                <li><strong>Junior Broker to Licensed Broker, Asel Brokerage Firm (renamed to Kian in 2017), Tehran, Iran (Jan 2010 - Aug 2013)</strong>
+                    <ul>
+                        <li>Attained Licensed Broker status after successfully passing the Securities Principles Certificate exam administered by the Securities and Exchange Organization in Iran</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <p>English (Fluent), Persian (Mothertongue), Italian (Intermediate)</p>
+        </section>
+
+        <section>
+            <h2>Computer Skills</h2>
+            <ul>
+                <li>Advanced: Python, O-Tree, Matlab, Stata</li>
+                <li>Intermediate: R, HTML, CSS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interests</h2>
+            <p>Paddle-boarding, Hiking, Driving, Traveling</p>
+        </section>
+
+        <section>
+            <h2>References</h2>
+            <ul>
+                <li><a href="https://webapps.unitn.it/du/en/Persona/PER0004148/Didattica">Luigi Mittone</a>, University of Trento, Italy, <a href="mailto:luigi.mittone@unitn.it">luigi.mittone@unitn.it</a></li>
+                <li><a href="https://ju.se/en/personinfo?id=4171">Azzurra Morreale</a>, Jönköping University, Sweden, <a href="mailto:azzurra.morreale@ju.se">azzurra.morreale@ju.se</a></li>
+                <li><a href="https://webapps.unitn.it/du/en/Persona/PER0002956/Curriculum">Flavio Bazzana</a>, University of Trento, Italy, <a href="mailto:flavio.bazzana@unitn.it">flavio.bazzana@unitn.it</a></li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>

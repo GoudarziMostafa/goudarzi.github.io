@@ -1,0 +1,54 @@
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container p {
+    margin: 5px 0;
+}
+
+.header-details {
+    text-align: center;
+}
+
+.header-details p {
+    margin: 5px 0;
+}
+
+.profile-pic {
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
