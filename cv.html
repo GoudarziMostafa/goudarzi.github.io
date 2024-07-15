@@ -23,8 +23,13 @@
             <div class="header-details">
                 <p>Postdoctoral Researcher in Finance & Business Analytics Group, and Ramp-Up Manager in Viipuri Lab, LUT Business School, Finland</p>
                 <p>Laserkatu 3, 53850 Lappeenranta, Finland</p>
-                <p>Email: <a href="mailto:mostafa.goudarzi@lut.fi">mostafa.goudarzi@lut.fi</a> | Phone: +358 505 714090</p>
+                <p>Email: <span id="email"></span> | Phone: +358 505 714090</p>
             </div>
+            <script type="text/javascript">
+                var user = "mostafa.goudarzi";
+                var domain = "lut.fi";
+                document.getElementById("email").innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+            </script>
         </header>
 
         <section>
